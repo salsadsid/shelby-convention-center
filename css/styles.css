@@ -1,3 +1,5 @@
+/* Custom CSS */ 
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
@@ -47,6 +49,10 @@ body{
     font-size: 22px;
 }
 
+/* Media Queries */
+
+/* For Moblies */
+
 @media only screen and (max-width:576px){
     .slider .carousel-item{
         min-height: 80vh;
@@ -56,6 +62,7 @@ body{
     }
 
 }
+/* For Tablet */
 
 @media only screen and (min-width:577px) and (max-width:992px){
     .slider .carousel-item{
